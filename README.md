@@ -13,3 +13,7 @@ As fullstack, the content is given across:
 - Back-End
   - JAVA
   - Spring Framework
+
+- There are the followings:
+  - CC - Code Challenge
+  - PC - Project Challenge
