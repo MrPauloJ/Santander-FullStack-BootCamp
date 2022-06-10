@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding: 0;
+    font-size: 15px;
+    font-family: "Segoe UI";
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+#base{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#imageView{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    min-height: 100vh;
+    width: 50%;
+}
+
+#greatGroup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    min-height: 50%;
+}
+
+.loginBlock{
+    min-width: 350px;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 10px;
+    padding:20px 0;
+    width: 100%;
+}
+
+.loginBlock:nth-child(1){
+    min-height: 300px;
+}
+
+.loginBlock #logo{
+    padding-bottom: 20px;
+
+}
+
+.loginBlock #profileSection{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    border-radius: 50%;
+    overflow: hidden;
+    max-width: 175px;
+}
+
+.loginBlock #profilePhoto{
+    width: 100%;
+}
+
+.loginBlock a{
+    color:#0095f6;
+    text-decoration: none;
+}
+
+.loginBlock:nth-child(1) p{
+    padding-top: 20px;
+}
+
+.loginBlock #loginContinue{
+    padding: 5px 8px;
+    background-color: #0095f6;
+    color:white;
+    border-radius: 5px;
+}
+
+.loginBlock #action{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.loginBlock span{
+    color: #8e8e8e;
+}
+
+#getApp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 350px;
+    max-width: 350px;
+}
+
+#linkGetApp{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px;
+}
+
+#linkGetApp .getApp{
+    height: 3rem;
+}
+
+@media (max-width:850px){
+    #imageView{
+        display: none;
+    }
+    #greatGroup{
+        align-items: center;
+        width: 100%;
+    }
+}
+
+@media (max-width:450px){
+    .loginBlock, #getApp{
+        max-width: none;
+        border: none;
+        margin: 0;
+    }
+    .loginBlock{
+        padding: 15px 0;
+    }
+}
