@@ -1,0 +1,11 @@
+.container{
+    margin:0 auto;
+    margin-top: 100px;
+}
+
+.content{
+    min-height: 300px;
+    min-width: 350px;
+    max-width: 350px;
+    background-color: #f6f6f6;
+}

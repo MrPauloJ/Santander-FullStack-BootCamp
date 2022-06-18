@@ -1,0 +1,17 @@
+a{
+    text-decoration: none;
+}
+
+.blog-header {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.img-logo{
+    margin: 0 auto;
+    width: auto;
+    max-height: 80px;
+}
+
+span{
+    color:#9f999f;
+}

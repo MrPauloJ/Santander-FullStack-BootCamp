@@ -1,0 +1,12 @@
+<div class="container d-flex justify-content-center align-items-center">
+    <div class="d-flex row justify-content-evenly my-5">  
+        <div class="card my-2" style="width: 18rem;" *ngFor="let item of itemList">
+            <img class="card-img-top my-2" [src]="item.img" alt="Card image cap">
+            <div class="card-body">
+            <h5 class="card-title my-0">{{item.title}} - R${{item.price}}</h5>
+            <p class="card-text">{{item.description}}</p>
+            <a href="#" class="btn btn-primary">Buy now</a>
+            </div>
+        </div>
+    </div>
+</div>

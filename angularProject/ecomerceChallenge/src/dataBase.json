@@ -1,0 +1,11 @@
+{
+    "top10":[{"img":"", "title":"titulo", "price":0, "description":"a venda"}],
+    "Technology":[{"img":"", "title":"titulo", "price":0, "description":"a venda"}],
+    "Books":[{"img":"", "title":"titulo", "price":0, "description":"a venda"}],
+    "Art":[{"img":"", "title":"titulo", "price":0, "description":"a venda"}],
+    "Business":[{"img":"", "title":"titulo", "price":0, "description":"a venda"}],
+    "Science":[{"img":"", "title":"titulo", "price":0, "description":"a venda"}],
+    "Healthy":[{"img":"", "title":"titulo", "price":0, "description":"a venda"}],
+    "Style":[{"img":"", "title":"titulo", "price":0, "description":"a venda"}],
+    "Travel":[{"img":"", "title":"titulo", "price":0, "description":"a venda"}]
+}
